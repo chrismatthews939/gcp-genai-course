@@ -350,4 +350,119 @@ Prompt chaining is a powerful technique for getting more complex and nuanced res
 
 This is where the concept of a chatbot comes in. You can have a back and forth with Gemini.
 
+### Gems
+Think of Gems as your personalized AI assistants within Gemini.
+
+Personalized responses
+Gems can be tailored with specific instructions and information. This allows them to provide responses that are more relevant to your needs and preferences within that particular use case.
+
+Streamlined workflows
+Gems can help you streamline repetitive tasks by providing templates, prompts, or guided interactions. This can save you time and effort when working on familiar projects or activities.
+
+Reset context
+You can set the context for a Gem, like giving it background information or specific instructions. Then, you can start multiple chats with that Gem, each with its own focus and flow. These chats remain separate, so information from one won't spill over into another. It's like having different conversations with the same expert, each tailored to a specific purpose.
+
+You can choose to use Google’s existing Gems that were built for many different common tasks, or you can create your own gem tailored to your use case.
+
+What information can you provide to a custom Gem?
+When you create a custom Gem, you provide it with instructions on how to act, what to do, and more. You are essentially prompting the agent or Gem on how to act. It's time to take all that prompting practice to the next level: Prompting to build your agents.
+
+This is a very good place to use role-prompting, where you prompt the Gem to act as though it is in a specific type of role, such as an air traffic controller. 
+
+You can also provide specific documents and resources to a Gem, giving it a focused knowledge base to draw from. Imagine a "code reviewer" Gem that has access to your project's coding style guidelines and best practices documentation. This would allow the Gem to provide feedback grounded in your specific project requirements.
+
+### Grounding
+Grounding refers to the ability of the AI model to connect its output to verifiable and specific sources of information. 
+
+Rag: Retrieval-augmented generation
+One powerful grounding technique is retrieval-augmented generation (RAG). It involves:
+
+Retrieving relevant information: The AI model first retrieves relevant information from a vast knowledge base (like a database, a set of documents, or even the entire web). This retrieval process is often powered by sophisticated techniques, like semantic search or vector databases.
+Generating output: The model then uses this retrieved information to generate the final output. This could be anything from answering a question to writing a creative story.
+
+RAG empowers AI models to go beyond simply memorizing information and instead learn to effectively access and utilize external knowledge sources to generate more insightful and reliable outputs.
+
+Improved accuracy and relevance: By accessing and utilizing relevant information directly, RAG models can produce more accurate and informative outputs.
+Improved explainability and transparency: RAG can increase transparency and trust in the AI system by showing the specific sources used to generate the output, ensuring that claims can be checked for accuracy. 
+
+Extending LLM capabilities: RAG can constrain the output from an LLM so that it only generates a response based on the specific context it was provided. 
+
+One way to start using a RAG system without any coding or database development is with a tool called Gemini Notebook.
+
+### Gemini Notebook
+Gemini Notebook is an AI-first notebook, grounded in your own documents, designed to help you gain insights faster. 
+
+It’s a unique tool that is built using Gemini models and is designed to help you learn and understand information better by acting as a virtual research assistant. You can "ground" Gemini Notebook in specific sources like documents, presentations, or even audio and video files. This means your AI assistant will only use information from those sources to answer your questions and generate summaries.
+
+Gemini Notebook Plus
+
+For users who want to take their research to the next level, there's Gemini Notebook Plus, a subscription plan that offers benefits like increased capacity, customization of response length and style, and usage analytics. 
+
+Gemini Notebook Enterprise
+
+Gemini Notebook Enterprise takes Gemini Notebook Plus to the next level by adding compliance and administrative features necessary for enterprise environments. This includes extra privacy and security features to give you enhanced control over your data. Your notebook information is only shared with your chosen collaborators, and you can manage access using predefined identity and access management (IAM) roles. To learn more, see the documentation for What is Gemini Notebook Enterprise?.
+
+Here's how it works
+Gemini Notebook operates on the concept of "notebooks" to help you organize and interact with your information. Here's a breakdown:
+
+Creating a notebook
+Think of a notebook as a container for a specific project, topic, or area of interest.
+
+You start by giving your notebook a title and then uploading the relevant source materials (documents, PDFs, even audio or video files) that you want it to learn from.
+
+The chat interface
+Within each notebook, you have a single, ongoing chat with the Gemini Notebook AI.
+
+You can ask questions, request summaries, or give instructions, just like you would in a regular chat.
+
+Gemini Notebook will respond using only the information from the sources you've uploaded to that specific notebook.
+
+Saving insights as notes
+When the AI provides a response you find valuable, you can save it as a note within the notebook.
+
+These notes become an organized collection of key takeaways, summaries, or important points.
+
+Sharing and collaboration
+You can create "shared notebooks" to collaborate with others.
+
+In a shared notebook, everyone can access the same sources, ask questions, and contribute to the notes.
+
+This fosters collaborative learning and knowledge sharing.
+
+How is Gemini Notebook different from Gemini and Gems?
+While Gems excel at general tasks and workflows, Gemini Notebook is designed to help you deeply understand and learn from specific sets of information. It's like having a dedicated expert who has thoroughly analyzed your chosen materials and is ready to answer any question you have.
+
+Gemini Notebook versus Gems
+Hyper-focused knowledge: Instead of drawing from a broad knowledge base, Gemini Notebook focuses solely on the sources you provide. This could be anything from research papers and articles to meeting notes and presentations.
+Interactive learning: Gemini Notebook goes beyond simply summarizing information. It encourages active learning by allowing you to ask questions, generate different types of summaries, and even create quizzes to test your understanding.
+Source-based answers: Every answer and insight provided by Gemini Notebook is directly grounded in your uploaded sources. This ensures accuracy and allows you to easily trace back to the original information. If you ask Gemini Notebook a question that isn't covered in the materials you've provided, it will honestly tell you that it can't answer. It won't invent information or speculate. This ensures that the information you get is always grounded in your sources and reliable.
+
+Use Cases:
+Create training materials and documentation
+Onboard new team members and facilitate knowledge transfer by creating a central repository for essential resources. Create a dedicated notebook to share with new hires with relevant onboarding materials (employee handbook, product documentation, training presentations). The new employees can then use Gemini Notebook to ask questions, clarify information, and gain a deeper understanding of their role and the company.
+
+Researching a new topic
+Gather articles and videos on a subject you're interested in and have Gemini Notebook create a comprehensive summary or answer specific questions you have.
+
+Learn by listening to audio
+With audio overviews in Gemini Notebook you can learn about the material covered in your sources through a podcast-like experience. Gemini Notebook will  summarize your material, connecting topics, and produce a downloadable audio with back-and-forth conversation between two AI hosts.
+
+Preparing for a presentation
+Feed Gemini Notebook your presentation slides and ask it to generate speaker notes or practice questions to help you rehearse.
+
+Summarize documentation
+Investment firms and legal teams need to thoroughly analyze documents and data. Upload financial statements, legal documents, and market research reports into Gemini Notebook. The team can then use the AI to quickly identify key information, summarize findings, and flag potential risks or inconsistencies.
+
+Project proposals and plans
+Keep everyone aligned and informed by creating a shared Gemini Notebook with all project-related information.
+
+Key takeaway
+Gemini Notebook is an AI-powered notebook designed to help you quickly gain insights from your documents. It acts as a virtual research assistant, able to summarize information, answer your questions, and even create different types of summaries based on your uploaded documents, presentations, or audio and video files. 
+
+Unlike general AI tools that draw from a broad knowledge base, Gemini Notebook focuses solely on the sources you provide. This "grounding" ensures that the information it provides is accurate, relevant, and traceable back to your original materials.
+
+
+
+
+
 
