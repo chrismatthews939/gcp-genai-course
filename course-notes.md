@@ -461,6 +461,38 @@ Gemini Notebook is an AI-powered notebook designed to help you quickly gain insi
 
 Unlike general AI tools that draw from a broad knowledge base, Gemini Notebook focuses solely on the sources you provide. This "grounding" ensures that the information it provides is accurate, relevant, and traceable back to your original materials.
 
+Gemini for Google Cloud
+
+Just like with Google Workspace, Gemini is revolutionizing how we interact with Google Cloud. From simplifying data analysis to boosting developer productivity, Gemini for Google Cloud offers a suite of AI-powered tools designed to enhance your cloud experience.
+
+Gemini Cloud Assist
+Gemini Cloud Assist is like having an AI expert on your team who helps you design, manage, and optimize applications on Google Cloud. It provides personalized guidance and is integrated with your Google Cloud environment to provide application lifecycle management assistance. It analyzes your cloud environment, your resources deployed, as well as metrics and logs to deliver actionable insights tailored to your needs.
+
+Gemini in BigQuery
+Gemini in BigQuery makes data analysis easier and more accessible. It can help you write code, understand your data, and even generate insights automatically, regardless of your SQL experience. This means faster and more efficient data exploration.
+
+Gemini Code Assist
+Gemini Code Assist acts as an AI pair programmer, helping developers write better code, just like when two programmers work together to solve problems. Gemini Code Assist can provide code suggestions, generate code blocks, and even offer explanations. It supports over 20 popular programming languages, code editors, and developer platforms, all of which help developers increase productivity.  
+
+Gemini in Colab Enterprise
+A Colab Enterprise notebook is an interactive environment that lets you write and execute code. Gemini in Colab Enterprise can use AI to help you write Python code in your notebook by suggesting code segments as you type and generating code based on your descriptions. This streamlines your data analysis and machine learning workflows.
+
+Gemini in Databases
+Gemini in Databases helps developers and database administrators manage their databases more effectively. It uses AI to simplify many aspects of using a database, from building applications with natural language to managing an entire fleet of databases from a single interface.
+
+Gemini in Looker
+With Gemini in Looker, you can analyze data and gain insights faster. As an intelligent assistant, it helps you understand your data, create visualizations, and even generate reports, making data exploration more intuitive.
+
+Gemini in Security
+Gemini in Security helps security teams detect, contain, and stop threats from spreading. It provides near-instant analysis of security findings and potential attack paths. Gemini in Security also summarizes prevalent tactics, techniques, and procedures used by threat actors, giving customers around the world detailed and timely threat intelligence.
+
+
+
+
+
+
+
+
 
 
 
