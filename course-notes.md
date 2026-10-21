@@ -331,3 +331,23 @@ Security and compliance
 Maintain a vigilant approach to security. Regularly review and update your security measures to protect against evolving threats. Ensure ongoing compliance with data privacy regulations as they change.
 
 # Gen AI: Navigate the Landscape download
+
+## Prompting techniques
+
+Zero-shot prompting is like asking a foundation model to complete a task with no prior examples, relying solely on its existing knowledge. 
+One-shot prompting involves showing the foundation model just one example, allowing it to learn and apply that knowledge to similar situations. 
+Few-shot prompting, on the other hand, provides the foundation model with multiple examples to learn from, which helps it better understand the task and improve its performance.
+
+### Role prompting
+Role prompting is a technique used to guide the behavior of LLMs by assigning them a specific role or persona. This can be anything from a business analyst or Shakespearean actor to a helpful customer service agent. By instructing the model to adopt a particular role, you influence the style, tone, and focus of its responses.
+
+By assigning a specific role or persona to a model, role prompting allows you to precisely influence the tone, style, and focus of its responses. This powerful technique effectively guides the AI to act as an expert or a character, helping you generate tailored content that perfectly matches your needs.
+
+### Prompt chaining
+When working in a tool like Gemini, it's important to understand how previous prompts may impact future prompts.
+
+Prompt chaining is a powerful technique for getting more complex and nuanced results from large language models like Gemini. It's like having a conversation with the AI where each response builds upon the previous one, leading to a more sophisticated and refined outcome. 
+
+This is where the concept of a chatbot comes in. You can have a back and forth with Gemini.
+
+
